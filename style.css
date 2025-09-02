@@ -45,10 +45,10 @@ header nav a:hover {
   header nav ul {
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 20px;
-  }
-  header nav a {
-    padding: 10px 15px;
+    margin: 0 auto 20px;
+    padding: 0; 
+    list-style: none; 
+    width: max-content; 
   }
 }
 
@@ -56,7 +56,7 @@ header nav a:hover {
   display: flex;
   align-items: flex-start;
   gap: 30px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .hero-photo {
   margin-right: 20px;
@@ -76,8 +76,14 @@ h1 {
 
 @media (max-width: 480px) {
   #hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 15px;
-    margin-top: 20px;
+  }
+
+  .hero-photo {
+    margin: 0;
   }
 
   .hero-photo img {
