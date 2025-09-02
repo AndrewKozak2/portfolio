@@ -43,7 +43,7 @@ header nav a:hover {
 
 @media (max-width: 768px) {
   header nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     margin: 0 auto 20px;
     padding: 0; 
