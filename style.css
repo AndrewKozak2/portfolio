@@ -44,11 +44,17 @@ header nav a:hover {
 @media (max-width: 768px) {
   header nav ul {
     flex-direction: row;
-    gap: 10px;
-    margin: 0 auto 20px;
-    padding: 0; 
-    list-style: none; 
-    width: max-content; 
+    gap: 5px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  header nav a {
+    padding: 5px 8px;
+    font-size: 12px; 
   }
 }
 
